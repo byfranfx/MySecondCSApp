@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySecondCSApp_winformsUI", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySecondCSApp_02", "MySecondCSApp_02\MySecondCSApp_02.csproj", "{A07F1658-72E4-46C7-9E07-E9107F703C9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySecondCSApp_03", "MySecondCSApp_03\MySecondCSApp_03.csproj", "{804294DF-2398-49EE-A144-870CB53B9D6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A07F1658-72E4-46C7-9E07-E9107F703C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A07F1658-72E4-46C7-9E07-E9107F703C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A07F1658-72E4-46C7-9E07-E9107F703C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804294DF-2398-49EE-A144-870CB53B9D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804294DF-2398-49EE-A144-870CB53B9D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804294DF-2398-49EE-A144-870CB53B9D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804294DF-2398-49EE-A144-870CB53B9D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
