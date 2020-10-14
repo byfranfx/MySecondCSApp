@@ -16,5 +16,16 @@ namespace MySecondCSApp_02
         {
             InitializeComponent();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked)
+            {
+                MessageBox.Show("Message Box Checked", "Message Box Status");
+            } else
+            {
+                MessageBox.Show("Message Box UnChecked", "Message Box Status");
+            }
+        }
     }
 }
