@@ -58,5 +58,23 @@ namespace MySecondCSApp_04
             textBox3.Text = "";
             textBox4.Text = "";
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string curItem = listBox1.SelectedItem.ToString();
+            if (curItem == "suma")
+            {
+                textBox3.Text = "+";
+            } else
+            {
+                if (curItem == "resta")
+                {
+                    textBox3.Text = "-";
+                } else
+                {
+                    textBox3.Text = "error";
+                }
+            }
+        }
     }
 }
