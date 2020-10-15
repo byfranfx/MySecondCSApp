@@ -45,7 +45,6 @@ namespace MySecondCSApp_05
             {
                 textBox1.Text = CheckChoose + CheckResult;
             }
-
         }
     }
 }
