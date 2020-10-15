@@ -34,16 +34,5 @@ namespace MySecondCSApp_07
                 textBox1.Text = res + comboBox1.SelectedItem.ToString();
             }
         }
-
-        /* 
-         * private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-            {
-              if (comboBox1.SelectedIndex == -1) {
-                textBox1.Text = string.Empty;
-              } else {
-                textBox1.Text = comboBox1.SelectedItem.ToString();
-              }
-            } 
-         */
     }
 }
